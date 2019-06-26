@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="testit.MainPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:local="clr-namespace:testit"
+             ios:Page.UseSafeArea="true">
+    <StackLayout>
+        <!--        <StackLayout.GestureRecognizers>
+            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="OnButtonTapped" />
+        </StackLayout.GestureRecognizers>-->
+        <!--  Place new controls here  -->
+        <Label BackgroundColor="Teal"
+               
+               Text="Go to Shell"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" >
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnButtonTappedAsync"/>
+            </Label.GestureRecognizers>
+        </Label>
+    </StackLayout>
+</ContentPage>

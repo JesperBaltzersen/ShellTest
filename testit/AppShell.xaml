@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell x:Class="testit.AppShell"
+       xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+       xmlns:views="clr-namespace:testit"
+       ios:Page.UseSafeArea="true"
+       >
+
+
+    <FlyoutItem Title="Item 1" Route="Item1">
+        <Tab Title="Tab1" Route="Tab1">
+            <ShellContent Title="Content1" Route="Content1">
+                <views:Content1 />
+            </ShellContent>
+           
+
+            <ShellContent Title="Content2" Route="Content2">
+                <views:Content2 />
+            </ShellContent>
+        </Tab>
+
+        <ShellContent Title="Content3" Route="Content3">
+            <views:Content3 />
+        </ShellContent>
+    </FlyoutItem>
+    <MenuItem Text="MenuItem1" />
+</Shell>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="testit.Content1"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Content1">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--        <StackLayout.GestureRecognizers>
+            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="OnButtonTapped" />
+        </StackLayout.GestureRecognizers>-->
+            <ImageButton BackgroundColor="Teal"
+                         Clicked="OnButtonTapped"
+                         HorizontalOptions="Center"
+                         VerticalOptions="CenterAndExpand" />
+            <ImageButton BackgroundColor="Purple"
+                         Clicked="OnNoTabBarTapped"
+                         HorizontalOptions="Center"
+                         VerticalOptions="CenterAndExpand" />
+            <ImageButton BackgroundColor="Green"
+                         Clicked="OnNoNavBarTapped"
+                         HorizontalOptions="Start"
+                         VerticalOptions="CenterAndExpand" />
+            <ImageButton BackgroundColor="Blue"
+                         Clicked="OnMoveWithShellTapped"
+                         HorizontalOptions="Start"
+                         VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{F6B244A4-0F82-41E0-852A-9E0267CF6D05}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="testit/AppShell.xaml.cs">
+    <Files>
+      <File FileName="testit/MainPage.xaml.cs" Line="23" Column="59" />
+      <File FileName="testit/App.xaml.cs" />
+      <File FileName="testit/AppShell.xaml.cs" Line="14" Column="74" />
+      <File FileName="testit.iOS/Main.cs" />
+      <File FileName="testit/AboutPage.xaml" />
+      <File FileName="testit/AboutPage.xaml.cs" />
+      <File FileName="testit/AppShell.xaml" />
+      <File FileName="testit/MainPage.xaml" />
+      <File FileName="testit/Content1.xaml" />
+      <File FileName="testit/Content1.xaml.cs" />
+      <File FileName="testit/Content2.xaml" />
+      <File FileName="testit/Content2.xaml.cs" />
+      <File FileName="testit/Content3.xaml" />
+      <File FileName="testit/Content3.xaml.cs" />
+      <File FileName="testit/App.xaml" />
+      <File FileName="testit/AfterShellPage.xaml" />
+      <File FileName="testit/AfterShellPage.xaml.cs" />
+      <File FileName="testit.iOS/Info.plist" />
+      <File FileName="testit/Content4.xaml" />
+      <File FileName="testit/Content4.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="testit" expanded="True">
+            <Node name="testit" expanded="True">
+              <Node name="AfterShellPage.xaml" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True">
+                <Node name="AppShell.xaml.cs" selected="True" />
+              </Node>
+              <Node name="Content1.xaml" expanded="True" />
+              <Node name="Content2.xaml" expanded="True" />
+              <Node name="Content3.xaml" expanded="True" />
+              <Node name="Content4.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="testit.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.testit.iOS automaticSigning="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F143238A-16F0-458F-BEA5-1AA065EA21AE">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="5Z2F43F5FY" TeamId="V5W84K68NZ" />
+  </MonoDevelop.Ide.ItemProperties.testit.iOS>
+  <MonoDevelop.Ide.ItemProperties.testit.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jesperbaltzersen/Projects/testit/testit/Content1.xaml.cs" relfile="testit/Content1.xaml.cs" line="47" column="1" />
+      <Breakpoint file="/Users/jesperbaltzersen/Projects/testit/testit/Content1.xaml.cs" relfile="testit/Content1.xaml.cs" line="36" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
